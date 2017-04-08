@@ -56,9 +56,9 @@ git config  user.email "xxxx@xxx.com"
 ```
 
 + eclipse中配置ssh_home和添加keys列表
- - ssh_home
+ + ssh_home
 Eclipse偏好设置->General->Network(Network Connections)->SSH2 home设置 and set your ~/.ssh as SSH Home
- - 对应private keys添加设置
+ + 对应private keys添加设置
  
 ![image](https://github.com/jadmin/notes/blob/master/assets/0004.png?raw=true)
 
