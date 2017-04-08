@@ -1,9 +1,10 @@
 # Git多个账号的配置和在Eclipse中的应用
 
 
- 在~/.ssh/目录下为每个不同账号生成密钥 
++ 在~/.ssh/目录下为每个不同账号生成密钥 
 
 (https://help.github.com/articles/generating-ssh-keys)
+
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
