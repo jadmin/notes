@@ -7,11 +7,13 @@
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
-![image](http://note.youdao.com/favicon.ico)
+![image](https://github.com/jadmin/notes/blob/master/assets/0001.png?raw=true)
 
 
 + 在~/.ssh/目录下新建config文件(如果没有的话)，配置相关内容
-![image](http://note.youdao.com/favicon.ico)
+
+![image](https://github.com/jadmin/notes/blob/master/assets/0002.png?raw=true)
+
 其中Host项是别名，随便取
 ```
 #Host myhost（这里是自定义的host简称，以后连接远程服务器就可以用命令ssh myhost）[注意下面有缩进]
@@ -31,7 +33,8 @@ ssh-add  ~/.ssh/github_id_dsa
 
 ssh-add的作用主要将密钥添加到 ssh-agent 的高速缓存中，这样在当前会话中就不需要再次输入密码了
 ssh-add -l可以查看句天添加了哪些keys
-![image](http://note.youdao.com/favicon.ico)
+
+![image](https://github.com/jadmin/notes/blob/master/assets/0003.png?raw=true)
 
 + 测试是否配置成功
 ```
@@ -56,5 +59,6 @@ git config  user.email "xxxx@xxx.com"
  - ssh_home
 Eclipse偏好设置->General->Network(Network Connections)->SSH2 home设置 and set your ~/.ssh as SSH Home
  - 对应private keys添加设置
-![image](http://note.youdao.com/favicon.ico)
+ 
+![image](https://github.com/jadmin/notes/blob/master/assets/0004.png?raw=true)
 
