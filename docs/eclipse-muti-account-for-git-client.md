@@ -1,7 +1,7 @@
 # Git多个账号的配置和在Eclipse中的应用
 
 
-+ 在~/.ssh/目录下为每个不同账号生成密钥 
+ 在~/.ssh/目录下为每个不同账号生成密钥 
 
 (https://help.github.com/articles/generating-ssh-keys)
 ```
@@ -43,22 +43,22 @@ ssh -T git@github.com
 ```
 
 + 取消全局账号，并在每个仓库下设置对应的账号邮箱信息
- - 取消global
+1. 取消global
 ```
 git config --global --unset user.name
 git config --global --unset user.email
 ```
 
- - 设置每个项目repo的自己的user.email
+2. 设置每个项目repo的自己的user.email
 ```
 git config  user.name  "xxx"
 git config  user.email "xxxx@xxx.com"
 ```
 
 + eclipse中配置ssh_home和添加keys列表
- + ssh_home
+1. ssh_home
 Eclipse偏好设置->General->Network(Network Connections)->SSH2 home设置 and set your ~/.ssh as SSH Home
- + 对应private keys添加设置
+2. 对应private keys添加设置
  
 ![image](https://github.com/jadmin/notes/blob/master/assets/0004.png?raw=true)
 
