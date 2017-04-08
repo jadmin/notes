@@ -1,3 +1,4 @@
+# Mac下设置快速切换多版本jdk的环境变量
 
 + 前提条件：mac支持/usr/libexec/java_home命令，版本在Mac OS X 10.5以上
 + 安装各种版本的jdk
