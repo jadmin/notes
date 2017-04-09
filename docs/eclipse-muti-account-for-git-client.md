@@ -1,4 +1,4 @@
-# Git多个账号的配置和在Eclipse中的应用
+# Git多个账号的配置和在eclipse中的应用
 
 
 + 在~/.ssh/目录下为每个不同账号生成密钥 
@@ -28,8 +28,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 + ssh-add 每个key
 ```
-ssh-add  ~/.ssh/oschina_id_dsa
-ssh-add  ~/.ssh/github_id_dsa
+ssh-add  ~/.ssh/oschina_id_rsa
+ssh-add  ~/.ssh/github_id_rsa
 ```
 
 ssh-add的作用主要将密钥添加到 ssh-agent 的高速缓存中，这样在当前会话中就不需要再次输入密码了
