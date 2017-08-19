@@ -35,6 +35,14 @@ ssh-add  ~/.ssh/github_id_rsa
 ssh-add的作用主要将密钥添加到 ssh-agent 的高速缓存中，这样在当前会话中就不需要再次输入密码了
 ssh-add -l可以查看句天添加了哪些keys
 
+有时候执行ssh-add xxx时会报错："Could not open a connection to your authentication agent"
+可尝试执行以下命令，使ssh-add命令生效
+```
+eval `ssh-agent -s`
+ssh-add
+```
+
+
 ![image](https://github.com/jadmin/notes/blob/master/assets/0003.png?raw=true)
 
 + 测试是否配置成功
