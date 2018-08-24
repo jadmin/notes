@@ -8,6 +8,10 @@
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
+或
+```
+ssh-keygen -t rsa -C "your_email@example.com"
+```
 ![image](https://github.com/jadmin/notes/blob/master/assets/0001.png?raw=true)
 
 
