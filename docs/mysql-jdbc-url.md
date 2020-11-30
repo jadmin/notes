@@ -7,5 +7,4 @@
 + &zeroDateTimeBehavior=convertToNull
 + &autoReconnect=true
 + &allowMultiQueries=true
-+ &tinyInt1isBit=false
 + &useSSL=false
