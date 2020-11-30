@@ -1,5 +1,11 @@
 # MySQL 常用JdbcUrl 参数
 
-+ 前提条件：mac支持/usr/libexec/java_home命令，版本在Mac OS X 10.5以上
-+ 安装各种版本的jdk
-+ 在/etc/profile文件中下入以下内容
++ &tinyInt1isBit=true/false :  驱动程序是否应将数据类型TINYINT(1)当作BIT类型对待？创建表时，服务器会执行BIT -> TINYINT(1)操作。
++ &serverTimezone=Asia/Shanghai
++ &useUnicode=true
++ &characterEncoding=UTF8
++ &zeroDateTimeBehavior=convertToNull
++ &autoReconnect=true
++ &allowMultiQueries=true
++ &tinyInt1isBit=false
++ &useSSL=false
